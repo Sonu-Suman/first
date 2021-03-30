@@ -1,5 +1,5 @@
 # This is the first type of hangman game code
-"""
+
 import random
 
 with open('C:/Users/suman/Microsoft VS Code/vscode/first/word.txt', 'r+') as f:
@@ -36,7 +36,7 @@ if __name__ == "__main__":
             print("You Won!")
             print("Your guess word is: ", ''.join(guessed))
             break
-"""
+
 
 # This is second type of hangman game code
 

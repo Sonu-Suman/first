@@ -11,3 +11,17 @@ while line:
     line = f.readline()
 
 print(counter_dict)
+
+# This is the second way of doing this
+
+"""
+import collections
+import pprint
+
+file_name = input("File name: ")
+with open(file_name, 'r+') as f:
+    count = collections.Counter(f.read().upper())
+    value = pprint.pformat(count)
+
+print(value)
+"""

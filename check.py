@@ -1,4 +1,4 @@
-f = open('C:/Users/suman/.vscode/vscode/first/word.txt', 'r+')
+f = open('C:/Users/suman/Microsoft VS Code/vscode/first/word.txt', 'r+')
 line = f.readline()
 counter_dict = {}
 

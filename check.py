@@ -14,7 +14,7 @@ print(counter_dict)
 
 # This is the second way of doing this
 
-"""
+
 import collections
 import pprint
 
@@ -24,4 +24,3 @@ with open(file_name, 'r+') as f:
     value = pprint.pformat(count)
 
 print(value)
-"""

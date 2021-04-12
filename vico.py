@@ -24,4 +24,5 @@ plt.pie([active, recover, death], labels=[('Active', float('%.2f'%((active * 100
 
 plt.title(name)
 plt.legend()
+
 plt.show()

@@ -33,7 +33,7 @@ def largestMultiple(arr):
 largestMultiple(arr)
 
 
-"""
+
 # Approach 1: (Brute Force) - Check all the pairs in the list and then return the maximum pair.
 
 # Time Complexity: O(N^2)
@@ -92,4 +92,3 @@ print(adjacentElementsProduct([3, 6, -2, -5, 7, 3]))
 #Alternate solution
 #return max([inputArray[i]*inputArray[i+1] for i in range(0, int(len(inputArray)-1))])
 
-"""

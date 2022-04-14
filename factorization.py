@@ -16,7 +16,7 @@ def allFactors(A):
     i = 1
     while i<A:
         if A%i==0:
-            L.append(A)
+            L.append(i)
         
         i += 1
 
